@@ -91,7 +91,6 @@ class EmacsHead < Formula
   def install
     args = %W[
       --disable-dependency-tracking
-      --disable-silent-rules
       --enable-locallisppath=#{HOMEBREW_PREFIX}/share/emacs/site-lisp
       --infodir=#{info}/emacs
       --prefix=#{prefix}
